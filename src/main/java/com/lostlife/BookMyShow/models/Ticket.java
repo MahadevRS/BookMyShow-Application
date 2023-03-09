@@ -34,6 +34,8 @@ public class Ticket {
 
     private String theatreName;
 
+    private String bookedSeats;
+
     @JoinColumn
     @ManyToOne
     private User user;
