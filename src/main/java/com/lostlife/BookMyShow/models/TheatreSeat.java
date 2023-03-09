@@ -2,6 +2,7 @@ package com.lostlife.BookMyShow.models;
 
 import com.lostlife.BookMyShow.enums.SeatType;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -12,6 +13,7 @@ import javax.persistence.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class TheatreSeat {
 
     @Id

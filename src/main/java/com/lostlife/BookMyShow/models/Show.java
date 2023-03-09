@@ -4,6 +4,7 @@ import com.lostlife.BookMyShow.enums.SeatType;
 import com.lostlife.BookMyShow.enums.ShowType;
 import jdk.jfr.Timestamp;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -21,6 +22,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class Show {
 
     @Id
